@@ -1,10 +1,17 @@
 void setup()
 {
 	noLoop();
+	size(400,400);
 }
 void draw()
 {
-	//your code here
+	background(242,254,14);
+	for(int x = 100; x<400; x=x+100){
+		Die pikachu = new Die(x,350);
+		pikachu.show();
+		
+	}
+	
 }
 void mousePressed()
 {
