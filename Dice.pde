@@ -6,12 +6,17 @@ void setup()
 void draw()
 {
 	background(242,254,14);
-	for(int x = 100; x<400; x=x+100){
-		Die pikachu = new Die(x,350);
-		pikachu.show();
-		
+	int sum=0;
+	for(int y=100;y<385;y=y+100){
+		for(int x = 100; x<400; x=x+100){
+			Die pikachu = new Die(x,y);
+			pikachu.show();
+			if(pikachu.value<6){
+			sum=sum+pikachu.value;
+			}
+		}
 	}
-	
+	text(""+sum,23,34);
 }
 void mousePressed()
 {
@@ -19,17 +24,23 @@ void mousePressed()
 }
 class Die //models one single dice cube
 {
-	//variable declarations here
+	int myX, myY, value;
 	Die(int x, int y) //constructor
 	{
-		//variable initializations here
+		myX=x;
+		myY=y;
+		value=(int)(Math.random()*9)+1;
+		
 	}
 	void roll()
 	{
-		//your code here
+		
 	}
 	void show()
 	{
-		//your code here
+		fill(243,65,73);
+		rect(myX,myY,myX+32,myY+32);
+		fill(0);
+		text(""+value,myX+45,myY+55);
 	}
 }
