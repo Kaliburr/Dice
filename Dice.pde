@@ -73,33 +73,62 @@ class Die //models one single dice cube
     }
     if(value==2){
       ellipse(myX+25,myY+50,10,10);
-      ellipse(myX+70,myY+50,10,10);
+      ellipse(myX+75,myY+50,10,10);
     }
     if(value==3){
       ellipse(myX+50,myY+25,10,10);
       ellipse(myX+50,myY+50,10,10);
-      ellipse(myX+50,myY+70,10,10);
+      ellipse(myX+50,myY+75,10,10);
     }
     if(value==4){
       ellipse(myX+25,myY+25,10,10);
-      ellipse(myX+25,myY+70,10,10);
-      ellipse(myX+70,myY+25,10,10);
-      ellipse(myX+70,myY+70,10,10);
+      ellipse(myX+25,myY+75,10,10);
+      ellipse(myX+75,myY+25,10,10);
+      ellipse(myX+75,myY+75,10,10);
     }
     if(value==5){
       ellipse(myX+25,myY+25,10,10);
-      ellipse(myX+25,myY+70,10,10);
-      ellipse(myX+70,myY+25,10,10);
-      ellipse(myX+70,myY+70,10,10);
+      ellipse(myX+25,myY+75,10,10);
+      ellipse(myX+75,myY+25,10,10);
+      ellipse(myX+75,myY+75,10,10);
       ellipse(myX+50,myY+50,10,10);
     }
     if(value==6){
       ellipse(myX+25,myY+25,10,10);
       ellipse(myX+25,myY+50,10,10);
-      ellipse(myX+25,myY+70,10,10);
-      ellipse(myX+70,myY+25,10,10);
-      ellipse(myX+70,myY+50,10,10);
-      ellipse(myX+70,myY+70,10,10);
+      ellipse(myX+25,myY+75,10,10);
+      ellipse(myX+75,myY+25,10,10);
+      ellipse(myX+75,myY+50,10,10);
+      ellipse(myX+75,myY+75,10,10);
       }
+    if(value==7){
+      ellipse(myX+25,myY+25,10,10);
+      ellipse(myX+25,myY+50,10,10);
+      ellipse(myX+25,myY+75,10,10);
+      ellipse(myX+75,myY+25,10,10);
+      ellipse(myX+75,myY+50,10,10);
+      ellipse(myX+75,myY+75,10,10);
+      ellipse(myX+50,myY+50,10,10);
+    }
+    if(value==8){
+      ellipse(myX+25,myY+25,10,10);
+      ellipse(myX+25,myY+75,10,10);
+      ellipse(myX+75,myY+25,10,10);
+      ellipse(myX+75,myY+75,10,10);
+      ellipse(myX+25,myY+50,10,10);
+      ellipse(myX+50,myY+75,10,10);
+      ellipse(myX+75,myY+50,10,10);
+      ellipse(myX+50,myY+25,10,10);
+    }
+    if(value==9){
+      ellipse(myX+25,myY+25,10,10);
+      ellipse(myX+25,myY+75,10,10);
+      ellipse(myX+75,myY+25,10,10);
+      ellipse(myX+75,myY+75,10,10);
+      ellipse(myX+25,myY+50,10,10);
+      ellipse(myX+50,myY+75,10,10);
+      ellipse(myX+75,myY+50,10,10);
+      ellipse(myX+50,myY+25,10,10);
+      ellipse(myX+50,myY+50,10,10);
   }
 }
