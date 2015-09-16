@@ -75,6 +75,31 @@ class Die //models one single dice cube
       ellipse(myX+25,myY+50,10,10);
       ellipse(myX+70,myY+50,10,10);
     }
-    
+    if(value==3){
+      ellipse(myX+50,myY+25,10,10);
+      ellipse(myX+50,myY+50,10,10);
+      ellipse(myX+50,myY+70,10,10);
+    }
+    if(value==4){
+      ellipse(myX+25,myY+25,10,10);
+      ellipse(myX+25,myY+70,10,10);
+      ellipse(myX+70,myY+25,10,10);
+      ellipse(myX+70,myY+70,10,10);
+    }
+    if(value==5){
+      ellipse(myX+25,myY+25,10,10);
+      ellipse(myX+25,myY+70,10,10);
+      ellipse(myX+70,myY+25,10,10);
+      ellipse(myX+70,myY+70,10,10);
+      ellipse(myX+50,myY+50,10,10);
+    }
+    if(value==6){
+      ellipse(myX+25,myY+25,10,10);
+      ellipse(myX+25,myY+50,10,10);
+      ellipse(myX+25,myY+70,10,10);
+      ellipse(myX+70,myY+25,10,10);
+      ellipse(myX+70,myY+50,10,10);
+      ellipse(myX+70,myY+70,10,10);
+      }
   }
 }
